@@ -478,9 +478,9 @@ html {
 }
 
 .tour>h4 {
-    margin-bottom: 2rem;
+    margin-bottom: 0.2rem;
     margin-right: 2rem;
-
+font-size: 1.8rem;
 }
 
 .tour__img {
@@ -492,13 +492,26 @@ html {
 
     margin-right: 2rem;
     display: flex;
-    margin-bottom: 1rem;
+    
+}
 
+.tour__price_grey{
+    text-align-last: right;
+    font-size: 1rem;
+    color: #9B9B9B;
 
+    margin-right: 2rem;
+    
+    margin-bottom: 0.5rem;
+}
+
+.tour__des_grey{
+    color: #9B9B9B;
+    font-size: 1.2rem;
 }
 
 .tour__price {
-    bottom: 1rem;
+    bottom: 0.7rem;
     margin-top: 3rem;
     margin-left: 0.3rem;
 }
@@ -510,7 +523,7 @@ html {
 
 .tour__price>p {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-right: 0.3rem;
     margin-bottom: 0;
 }
@@ -520,6 +533,7 @@ html {
     margin-bottom: 0;
     margin-left: 1rem;
     text-align: start;
+    font-size: 1.2rem;
 }
 
 .tour__airplane {
@@ -528,18 +542,6 @@ html {
     align-self: center;
 }
 
-.tour__duration {
-    border-radius: 20px;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    background-color: #24CB5D;
-    color: #FFFF;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    display: flex;
-
-    align-items: center;
-}
 
 .tour__sale {
     border: 0;
@@ -549,7 +551,10 @@ html {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
+    font-size:1.4rem;
+    font-weight: 700;
+    
 }
 
 .tour__but {
@@ -560,7 +565,12 @@ html {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 8px 3px 0 -3px #99CA3C;
+    
+
 }
 
 
